@@ -1,0 +1,29 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{pstricks-add}
+\pagestyle{empty}
+\usepackage{amssymb,fancyhdr,txfonts,pxfonts}
+\begin{document}
+\psset{xunit=1.0cm,yunit=1.0cm,algebraic=true,dimen=middle,dotstyle=o,dotsize=5pt 0,linewidth=0.8pt,arrowsize=3pt 2,arrowinset=0.25}
+\begin{pspicture*}(-1.303289334628981,-1.1187893192392604)(1.279062042103099,1.2707735460668355)
+\multips(0,-1)(0,0.5){5}{\psline[linestyle=dashed,linecap=1,dash=1.5pt 1.5pt,linewidth=0.4pt,linecolor=lightgray]{c-c}(-1.303289334628981,0)(1.279062042103099,0)}
+\multips(-1,0)(0.5,0){6}{\psline[linestyle=dashed,linecap=1,dash=1.5pt 1.5pt,linewidth=0.4pt,linecolor=lightgray]{c-c}(0,-1.1187893192392604)(0,1.2707735460668355)}
+\psaxes[labelFontSize=\scriptstyle,xAxis=true,yAxis=true,Dx=0.5,Dy=0.5,ticksize=-2pt 0,subticks=2]{->}(0,0)(-1.303289334628981,-1.1187893192392604)(1.279062042103099,1.2707735460668355)
+\pscircle(0.,0.){1.}
+\rput[tl](1.0609066212789744,0.1343360050295415){0}
+\rput[tl](-1.1612346419993185,0.22058349698326468){$\pi $}
+\psplot{-1.303289334628981}{1.279062042103099}{(-0.--0.8692728087109508*x)/0.5012662489329461}
+\psplot{-1.303289334628981}{1.279062042103099}{(-0.-0.8678938208736336*x)/0.49980767216182326}
+\rput[tl](0.6550360709085099,1.0932051802797584){$\frac{\pi}{3}$}
+\rput[tl](-0.5422820526843602,1.2504800185483125){$\frac{2\pi}{3}$}
+\rput[tl](0.6905497440659255,-0.7433590601465829){$-\frac{\pi}{3}$}
+\rput[tl](-0.7299971822307001,-0.7433590601465829){$-\frac{2\pi}{3}$}
+\begin{scriptsize}
+\rput[bl](-0.5016949976473138,0.7532885943444962){$c$}
+\psdots[dotsize=3pt 0,dotstyle=*,linecolor=darkgray](1.,0.)
+\rput[bl](1.0253929481215587,-0.13455323459088972){\darkgray{$I$}}
+\psdots[dotsize=3pt 0,dotstyle=*,linecolor=darkgray](0.,1.)
+\rput[bl](0.046230245352813226,0.8851965232148965){\darkgray{$J$}}
+\end{scriptsize}
+\end{pspicture*}
+\end{document}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tableau>
+    <Lignes>2</Lignes>
+    <Colonnes>8</Colonnes>
+    <Haut>vide#vide#vide#vide#vide#vide#vide#vide</Haut>
+    <Milieu>x#-\infty#vide#3#vide#4#vide#+\infty</Milieu>
+    <Bas>vide#vide#vide#|#vide#|#vide#vide</Bas>
+    <Haut>vide#vide#vide#|#vide#|#vide#vide</Haut>
+    <Milieu> -x^2+7 x-12#vide#vide#0#vide#0#vide#vide</Milieu>
+    <Bas>vide#vide#vide#|#vide#|#vide#vide</Bas>
+</Tableau>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Arbre>
+    <item code="\frac{1}{6};S">
+        <item code="\frac{1}{6};S">
+            <item code="\frac{1}{6};S"/>
+            <item code=";\bar{S}"/>
+        </item>
+        <item code=";\bar{S}">
+            <item code="\frac{1}{6};S"/>
+            <item code=";\bar{S}"/>
+        </item>
+    </item>
+    <item code=";\bar{S}">
+        <item code="\frac{1}{6};S">
+            <item code="\frac{1}{6};S"/>
+            <item code=";\bar{S}"/>
+        </item>
+        <item code=";\bar{S}">
+            <item code="\frac{1}{6};S"/>
+            <item code=";\bar{S}"/>
+        </item>
+    </item>
+</Arbre>

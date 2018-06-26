@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tableau>
+    <Lignes>2</Lignes>
+    <Colonnes>8</Colonnes>
+    <Haut>vide#vide#vide#vide#vide#vide#vide#vide</Haut>
+    <Milieu>x#-\infty#vide#x_1#vide#x_2#vide#+\infty</Milieu>
+    <Bas>vide#vide#vide#|#vide#|#vide#vide</Bas>
+    <Haut>vide#vide#vide#|#vide#|#vide#vide</Haut>
+    <Milieu>a x^2+b x+c#vide#$signe de $a#0#$signe de $-a#0#$signe de $a#vide</Milieu>
+    <Bas>vide#vide#vide#|#vide#|#vide#vide</Bas>
+</Tableau>
